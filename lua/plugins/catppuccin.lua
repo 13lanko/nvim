@@ -6,7 +6,7 @@ return {
 		local config = require("catppuccin")
 		config.setup({
 			flavour = "mocha", -- latte, frappe, macchiato, mocha
-      transparent_background = true, -- disables setting the background color.
+
 		})
 		vim.cmd.colorscheme("catppuccin")
 	end,
